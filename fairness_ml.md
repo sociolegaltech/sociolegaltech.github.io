@@ -1,5 +1,10 @@
 # Fairness in Machine Learning Workshop
 
+## Resources
+
+Building Ethical Algorithms by Center for Democracy & Technology
+[https://github.com/numfocus/algorithm-ethics/blob/master/EthicalAlgorithmTool.md](https://github.com/numfocus/algorithm-ethics/blob/master/EthicalAlgorithmTool.md)
+
 ## Module I: COMPAS
 
 **Compass Analysis** by ProPublica
@@ -28,6 +33,8 @@ Data and analysis for 'Machine Bias'
 
 * machLearn Source Code [https://github.com/davesteps/machLearn](https://github.com/davesteps/machLearn)
 
+---
+
 ## Module II: Predictive Policing
 
 **CivicScape**
@@ -48,6 +55,18 @@ II. Model Data Practices (Python)
 
 IV. Preventing and Diagnosing Bias in CivicScape
 [https://github.com/CivicScape/CivicScape/blob/master/evaluation_notebooks/notebooks/PreventingBias.ipynb](https://github.com/CivicScape/CivicScape/blob/master/evaluation_notebooks/notebooks/PreventingBias.ipynb)
+
+---
+
+## Other Resources GitHub Repos About Algorithmic Fairness
+
+**Audit AI**
+[https://github.com/pymetrics/audit-ai](https://github.com/pymetrics/audit-ai)
+
+**Fairness**
+[https://github.com/redshiftzero/fairness](https://github.com/redshiftzero/fairness)
+
+
 
 
 
