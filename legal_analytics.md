@@ -1,5 +1,16 @@
 # Legal Analytics Workshop
 
+## Helpful Tools for Textual Analysis
+
+Quanteda R Package
+[https://github.com/quanteda/quanteda](https://github.com/quanteda/quanteda)
+
+Text Analysis in R (Welbers, Van Atteveldt & Benoit, 2017)
+[http://vanatteveldt.com/p/welbers-text-r.pdf](http://vanatteveldt.com/p/welbers-text-r.pdf)
+
+Text Analysis Course by Elliot Ash
+[http://elliottash.com/text_course/](http://elliottash.com/text_course/)
+
 ## Module I: Exploring Twitter Data
 
 
@@ -46,8 +57,14 @@ Python Interface to LegiScan API by @poliquin
 (https://github.com/poliquin/pylegiscan)[https://github.com/poliquin/pylegiscan]
 
 ### Data Visulazation of Machine Readable Law
+
 Supreme Court Citation Networks
 [https://www.courtlistener.com/visualizations/scotus-mapper/](https://www.courtlistener.com/visualizations/scotus-mapper/)
+
+[https://free.law/2016/02/22/our-newest-launch-a-scotus-data-viz-tool/](https://free.law/2016/02/22/our-newest-launch-a-scotus-data-viz-tool/)
+
+Citation Network by Ian Carmichael
+[https://github.com/idc9/law-net](https://github.com/idc9/law-net)
 
 ### Other Great Ways to Visualize Law and Society Data
 
