@@ -15,16 +15,16 @@ Legislative Influence Detector by Data Science for Social Good
 **The Free Law Projects**
 [https://free.law](https://free.law)
 
-CourtListner Website
+* CourtListner Website
 [https://www.courtlistener.com](https://www.courtlistener.com)
 
-CourtListner Source Code
+* CourtListner Source Code
 [https://github.com/freelawproject/courtlistener](https://github.com/freelawproject/courtlistener)
 
-Juriscraper Website
+* Juriscraper Website
 [https://github.com/freelawproject/juriscraper](https://github.com/freelawproject/juriscraper)
 
-Juriscraper Source Code
+* Juriscraper Source Code
 [https://github.com/freelawproject/juriscraper](https://github.com/freelawproject/juriscraper)
 
 LexPredict ContraxSuite
