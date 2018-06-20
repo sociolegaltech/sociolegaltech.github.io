@@ -1,11 +1,10 @@
 # Useful Programming Tools
 
-### Technology, Law and Society Institute GitHub
+# Technology, Law and Society Institute GitHub
 
 [https://github.com/sociolegaltech](https://github.com/sociolegaltech)
 
-**Hackathon Repository**
-[https://github.com/sociolegaltech/techlawhackathon](https://github.com/sociolegaltech/techlawhackathon)
+# Helpful Software
 
 ### R
 [https://www.r-project.org](https://www.r-project.org)
