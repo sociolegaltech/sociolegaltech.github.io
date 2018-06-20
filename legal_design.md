@@ -3,7 +3,7 @@
 ## Resources on Legal Design
 
 Legal Design Lab
-http://www.legaltechdesign.com
+[http://www.legaltechdesign.com]
 
 * Introduction to Desgin Thinking by Margaret Hagan
 https://docs.google.com/document/d/1zLexK65v3nWaez0A-b1aK4of-rQl1MW4ic8ZZFBOFYM/edit
