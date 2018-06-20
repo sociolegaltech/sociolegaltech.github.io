@@ -1,30 +1,63 @@
-### A. Introduction to Legal Design
+# Legal Design Workshop
 
-Legal Design
-
-**Resources on legal design:**
+## Resources on Legal Design
 
 Legal Design Lab
 [http://www.legaltechdesign.com](http://www.legaltechdesign.com)
 
-**Interesting Chat Bots**
+Introduction to Desgin Thinking by Margaret Hagan
+[https://docs.google.com/document/d/1zLexK65v3nWaez0A-b1aK4of-rQl1MW4ic8ZZFBOFYM/edit](https://drive.google.com/file/d/1Nd_TcYeGpRNZGchcWu503c2TJY7FrlS2/view)
+
+Law Design Summit Workbook
+[https://drive.google.com/file/d/0BzMFcRLbna0Hc0lkSTNOQzRwZFk/view](https://drive.google.com/file/d/0BzMFcRLbna0Hc0lkSTNOQzRwZFk/view)
+
+Example of Legal Design in Action:
+"The evolution of an eviction self-help" by Margaret Hagan
+[https://medium.com/legal-design-and-innovation/the-evolution-of-an-eviction-self-help-website-d3d936f11fa3](https://medium.com/legal-design-and-innovation/the-evolution-of-an-eviction-self-help-website-d3d936f11fa3)
+
+# Module I: Chat Bots
+
+## Resources for Creating Chat Bots
+
+Rubric for Chat Bot by David Colarusso
+[https://docs.google.com/document/d/1zLexK65v3nWaez0A-b1aK4of-rQl1MW4ic8ZZFBOFYM/edit](https://docs.google.com/document/d/1zLexK65v3nWaez0A-b1aK4of-rQl1MW4ic8ZZFBOFYM/edit)
+
+QnA Markup by David Colarusso
+[https://www.qnamarkup.org/](https://www.qnamarkup.org/)
+QnA Markup Source Code by David Colarusso
+[https://github.com/colarusso/QnAMarkup](https://github.com/colarusso/QnAMarkup)
+
+## Featured Chat Bots
+
 DoNotPay
 [https://www.donotpay.com](https://www.donotpay.com)
 
 CaseBot (Slack Bot)
 [https://github.com/anseljh/casebot](https://github.com/anseljh/casebot)
 
-**Off the Shelf Tools for Chat Bots**
-QnA Markup
-[https://www.qnamarkup.org/](https://www.qnamarkup.org/)
+# Module II: Twitter Bots
 
-**Interesting Twitter Bots**
+## Resources for Creating Twitter Bots
 
-@LOLSCOTUS
+How to Build A Law Bot by David Colarusso
+[https://lawyerist.com/how-build-law-bot/](https://lawyerist.com/how-build-law-bot/)
+
+Python Notebook for Law Bot by David Colarusso
+[https://github.com/colarusso/codingthelaw/blob/gh-pages/Fall_2017/work/colarusso/p2/code_sample_2.ipynb](https://github.com/colarusso/codingthelaw/blob/gh-pages/Fall_2017/work/colarusso/p2/code_sample_2.ipynb)
+
+Rubric for Twitter Bot by David Colarusso
+[https://docs.google.com/document/d/1fEhH23ESHwpJw_bT1w5BQet2iv1GAGx4_e9-Yj_KH1Y/edit](https://docs.google.com/document/d/1fEhH23ESHwpJw_bT1w5BQet2iv1GAGx4_e9-Yj_KH1Y/edit)
+
+### Featured Twitter Bots
+
+@LOLSCOTUS by David Colarusso
 [https://twitter.com/lolscotus](https://twitter.com/lolscotus)
 
-@big_cases
+@big_cases by Brad Heath
 [https://twitter.com/big_cases](https://twitter.com/big_cases)
 
 @NYPDedits
 [https://twitter.com/nypdedits](https://twitter.com/nypdedits)
+
+Article Featuring Great Twitter Bots
+[https://motherboard.vice.com/en_us/article/pgkexm/the-best-twitter-bots-for-keeping-tabs-on-the-government](https://motherboard.vice.com/en_us/article/pgkexm/the-best-twitter-bots-for-keeping-tabs-on-the-government)
