@@ -6,57 +6,6 @@
 Global Legal Hackathon
 [https://globallegalhackathon.com](https://globallegalhackathon.com)
 
-## II. Topics and Modules
-
-### A. Introduction to Legal Design
-
-Legal Design
-
-**Resources on legal design:**
-
-Legal Design Lab
-[http://www.legaltechdesign.com](http://www.legaltechdesign.com)
-
-**Interesting Chat Bots**
-DoNotPay
-[https://www.donotpay.com](https://www.donotpay.com)
-
-CaseBot (Slack Bot)
-[https://github.com/anseljh/casebot](https://github.com/anseljh/casebot)
-
-**Off the Shelf Tools for Chat Bots**
-QnA Markup
-[https://www.qnamarkup.org/](https://www.qnamarkup.org/)
-
-**Interesting Twitter Bots**
-
-@LOLSCOTUS
-[https://twitter.com/lolscotus](https://twitter.com/lolscotus)
-
-@big_cases
-[https://twitter.com/big_cases](https://twitter.com/big_cases)
-
-@NYPDedits
-[https://twitter.com/nypdedits](https://twitter.com/nypdedits)
-
-### B. Introduction to Legal Analytics
-
-#### Exploring Twitter Data
-
-Sankey Visualization
-[https://moj-analytical-services.github.io/criminal_history_sankey/](https://moj-analytical-services.github.io/criminal_history_sankey/)
-
-#### Machine Readable Law
-
-CourtListner
-[https://www.courtlistener.com](https://www.courtlistener.com)
-
-LexPredict ContraxSuite
-[https://contraxsuite.com](https://contraxsuite.com)
-
-State Decoded
-[http://docs.statedecoded.com](http://docs.statedecoded.com)
-
 
 
 ## III. A Gentle Introduction to Programming
