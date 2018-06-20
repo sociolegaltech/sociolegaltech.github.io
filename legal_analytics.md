@@ -1,4 +1,4 @@
-### B. Introduction to Legal Analytics
+# Legal Analytics Workshop
 
 #### Exploring Twitter Data
 
