@@ -1,4 +1,4 @@
-## III. A Gentle Introduction to Programming
+# A Gentle Introduction to Programming
 
 ### Technology, Law and Society Institute GitHub
 
