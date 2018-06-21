@@ -13,6 +13,15 @@ Text Analysis Course by Elliot Ash
 
 ## Module I: Exploring Twitter Data
 
+### **TLS INSTITUTE EXAMPLE NOTEBOOK**
+
+[https://github.com/sociolegaltech/sociolegaltech.github.io/blob/master/Twitter_Analysis_with_R.ipynb](https://github.com/sociolegaltech/sociolegaltech.github.io/blob/master/Twitter_Analysis_with_R.ipynb)
+
+Introduction to Twitter Analysis in R by Shirin Glander
+https://shiring.github.io/text_analysis/2017/06/28/twitter_post
+
+Combining Social Network Analysis and Topic Modeling by Shirin Glander
+[https://github.com/ShirinG/blog_posts_prep/blob/master/twitter/twitter_codecentric.Rmd](https://github.com/ShirinG/blog_posts_prep/blob/master/twitter/twitter_codecentric.Rmd)
 
 ## Module II: Exploring Machine Readable Law
 
@@ -20,6 +29,9 @@ Example of Machine Readable Law in Use
 
 Legislative Influence Detector by Data Science for Social Good
 [https://dssg.uchicago.edu/lid/](https://dssg.uchicago.edu/lid/)
+
+Text Analysis Course by Elliot Ash
+[http://elliottash.com/text_course/](http://elliottash.com/text_course/)
 
 ### Software for Machine Readable Law
 
