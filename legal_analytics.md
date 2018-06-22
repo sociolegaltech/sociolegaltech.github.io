@@ -2,7 +2,7 @@
 
 ### **TLS INSTITUTE EXAMPLE NOTEBOOK**
 
-[https://github.com/sociolegaltech/sociolegaltech.github.io/blob/master/B_Legal_Analytics_Module_I_Tutorial_Notebook.Rmd](https://github.com/sociolegaltech/sociolegaltech.github.io/blob/master/B_Legal_Analytics_Module_I_Tutorial_Notebook.Rmd)
+[https://sociolegaltech.github.io/B_Legal_Analytics_Module_I_Tutorial_Notebook.nb.html](https://sociolegaltech.github.io/B_Legal_Analytics_Module_I_Tutorial_Notebook.nb.html)
 
 ## Helpful Tools for Textual Analysis
 
