@@ -33,7 +33,7 @@ library(topicmodels)
 library(reshape2)
 library(grid)
 library(gridExtra)
-
+```
 ## Introduction to rtweet
 
 create a token with the web browser method: create token and save it as an environment variable
@@ -78,10 +78,6 @@ irvine_tweets_latlon <- lat_lng(irvine_tweets)
 ```{r}
 par(mar = c(0, 0, 0, 0))
 maps::map("county", regions="california,orange", lwd = .25)
-```
-
-## plot lat and lng points onto state map
-```{r}
 with(irvine_tweets_latlon, points(lng, lat, pch = 20, cex = .75, col = rgb(0, .3, .7, .75)))
 ```
 
@@ -116,8 +112,7 @@ friends %>%
     theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
     labs(x = "language ISO 639-1 code",
          y = "number of friends")
-```{r}
-
+```
 ## Who are my most “influential” friends (i.e. friends with the biggest network)?
 ```{r}
 friends %>%
@@ -126,7 +121,7 @@ friends %>%
     theme_tq() +
     labs(x = "log2 of number of friends",
          y = "density")
-```{r}
+```
 
 ## How active are my followers (i.e. how often do they tweet)
 ```{r}
@@ -187,12 +182,12 @@ friends_descr_ngrams <- friends %>%
 ```
 
 ## Count of Words
-```
+```{r}
 bigram_counts <- friends_descr_ngrams %>%
   count(word1, word2, sort = TRUE)
 ```
 
-##
+## Graph 
 ```{r}
 bigram_counts %>%
   filter(n > 10) %>%
@@ -208,8 +203,7 @@ bigram_counts %>%
 ```
 
 # Graph Word Pairs
-
-```
+```{r}
 bigram_graph <- bigram_counts %>%
   filter(n > 5) %>%
   graph_from_data_frame()
@@ -227,7 +221,7 @@ ggraph(bigram_graph, layout = "fr") +
 ```
 
 # Negated Meanings
-```
+```{r}
 bigrams_separated <- friends %>%
   unnest_tokens(bigram, description, token = "ngrams", n = 2, collapse = FALSE) %>%
   filter(!grepl("\\.|http", bigram)) %>%
@@ -242,7 +236,7 @@ not_words <- bigrams_separated %>%
   ungroup()
 ```
 
-```
+```{r}
 not_words %>%
   mutate(contribution = n * score) %>%
   arrange(desc(abs(contribution))) %>%
@@ -260,7 +254,7 @@ not_words %>%
 
 ## Sentiment Analysis
 ## What is the predominatant sentiment
-```
+```{r}
 friends_descr_sentiment <- friends_descr %>%
   left_join(select(bigrams_separated, word1, word2), by = c("word" = "word2")) %>%
   inner_join(get_sentiments("nrc"), by = "word") %>%
@@ -271,7 +265,7 @@ friends_descr_sentiment <- friends_descr %>%
                        ifelse(!is.na(word1) & bing == "negative", "positive", bing)))
 ```
 
-```
+```{r}
 friends_descr_sentiment %>%
   filter(nrc != "positive") %>%
   filter(nrc != "negative") %>%
@@ -288,7 +282,7 @@ friends_descr_sentiment %>%
 ```
 
 ## Are followers’ descriptions mostly positive or negative?
-```
+```{r}
 friends_descr_sentiment %>%
   count(screen_name, word, bing) %>%
   group_by(screen_name, bing) %>%
@@ -300,7 +294,7 @@ friends_descr_sentiment %>%
     theme_tq()
 ```
 ## Word Cloud
-```
+```{r}
 friends_descr_sentiment %>%
   count(word, bing, sort = TRUE) %>%
   acast(word ~ bing, value.var = "n", fill = 0) %>%
@@ -309,7 +303,7 @@ friends_descr_sentiment %>%
 ```
 
 # Topic Modeling
-```
+```{r}
 dtm_words_count <- friends_descr %>%
   mutate(word_stem = removeNumbers(word_stem)) %>%
   count(screen_name, word_stem, sort = TRUE) %>%
@@ -323,7 +317,7 @@ dtm_lda <- LDA(dtm_words_count, k = 5, control = list(seed = 1234))
 topics_beta <- tidy(dtm_lda, matrix = "beta")
 ```
 
-```
+```{r}
 p1 <- topics_beta %>%
   filter(grepl("[a-z]+", term)) %>% # some words are Chinese, etc. I don't want these because ggplot doesn't plot them correctly
   group_by(topic) %>%
@@ -343,13 +337,14 @@ p1 <- topics_beta %>%
          title = "The top 10 most characteristic words describe topic categories.")
 ```
 
-```
+```{r}
 user_topic <- tidy(dtm_lda, matrix = "gamma") %>%
   arrange(desc(gamma)) %>%
   group_by(document) %>%
   top_n(1, gamma)
-
 ```
+
+```{r}
 p2 <- user_topic %>%
   group_by(topic) %>%
   top_n(10, gamma) %>%
@@ -365,7 +360,10 @@ p2 <- user_topic %>%
 ```
 
 ## Map Your Grids
-```
+```{r}
 grid.arrange(p1, p2, ncol = 1, heights = c(0.7, 0.3))
 ```
 
+```{r}
+sessionInfo()
+```
