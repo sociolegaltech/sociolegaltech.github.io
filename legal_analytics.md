@@ -1,5 +1,9 @@
 # Legal Analytics Workshop
 
+### **TLS INSTITUTE EXAMPLE NOTEBOOK**
+
+[https://github.com/sociolegaltech/sociolegaltech.github.io/blob/master/B_Legal_Analytics_Module_I_Tutorial_Notebook.Rmd](https://github.com/sociolegaltech/sociolegaltech.github.io/blob/master/B_Legal_Analytics_Module_I_Tutorial_Notebook.Rmd)
+
 ## Helpful Tools for Textual Analysis
 
 Quanteda R Package
