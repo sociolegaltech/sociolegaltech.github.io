@@ -1,38 +1,74 @@
 ---
 title: "Legal Analytics Module Twitter"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 Install Packages
-```{r}
-#install.packages("tidyquant")
-#install.packages("SnowballC")
-#install.packages("wordcloud")
-#install.packages("tm")
-#install.packages("igraph")
-#install.packages("ggraph")
-#install.packages("topicmodels")
-#install.packages("maps")
-#install.packages("rmarkdown")
-#install.packages("tidytext")
-#install.packages("rtw")
+```
+install.packages("bindrcpp")
+install.packages("gridExtra")
+install.packages("reshape2")
+install.packages("topicmodels")
+install.packages("maps")
+install.packages("ggraph")
+install.packages("igraph")
+install.packages("tm")
+install.packages("NLP")
+install.packages("wordcloud")
+install.packages("RColorBrewer")
+install.packages("SnowballC")
+install.packages("tidytext")
+install.packages("tidyquant")
+install.packages("quantmod")
+install.packages("TTR")
+install.packages("PerformanceAnalytics")
+install.packages("xts")
+install.packages("zoo")
+install.packages("lubridate")
+install.packages("forcats")
+install.packages("stringr")
+install.packages("dplyr")
+install.packages("purrr")
+install.packages("readr")
+install.packages("tidyr")
+install.packages("tibble")
+install.packages("ggplot2")
+install.packages("tidyverse")
+install.packages("rtweet")
 ```
 Load Packages
 ```{r}
-library(rtweet)
-library(tidyverse)
-library(tidyquant)
-library(ggplot2)
-library(tidytext)
-library(SnowballC)
-library(wordcloud)
-library(tm)
-library(igraph)
-library(ggraph)
-library(maps)
-library(topicmodels)
-library(reshape2)
-library(grid)
+library(bindrcpp)
 library(gridExtra)
+library(reshape2)
+library(topicmodels)
+library(maps)
+library(ggraph)
+library(igraph)
+library(tm)
+library(NLP)
+library(wordcloud)
+library(RColorBrewer)
+library(SnowballC)
+library(tidytext)
+library(tidyquant)
+library(quantmod)
+library(TTR)
+library(PerformanceAnalytics)
+library(xts)
+library(zoo)
+library(lubridate)
+library(forcats)
+library(stringr)
+library(dplyr)
+library(purrr)
+library(readr)
+library(tidyr)
+library(tibble)
+library(ggplot2)
+library(tidyverse)
+library(rtweet)
 ```
 ## Introduction to rtweet
 
@@ -40,8 +76,8 @@ create a token with the web browser method: create token and save it as an envir
 ```{r}
 create_token(
   app = "sociolegaltech_R_analysis",
-  consumer_key = "",
-  consumer_secret = "")
+  consumer_key = "rpRXPSSHDwBejBMy2SDI8ikLJ",
+  consumer_secret = "4VnZ6KorOEGi7mKc8UupIYFe8UVrkOgKt15OlidHzcJ9VTjyXK")
 ```
 
  Search for tweets using a hashtag
@@ -67,7 +103,7 @@ ts_plot(searched_tweets, "3 hours") +
 ## search for 10,000 tweets sent from the US
 ```{r}
 irvine_tweets <- search_tweets(
-  "lang:en", geocode = lookup_coords("irvine, CA", "country:US", apikey =""), n = 10000
+  "lang:en", geocode = lookup_coords("irvine, CA", "country:US", apikey ="AIzaSyA7Au-XiUS6BD1Yl1ylEfLhJ9zu8Wc1-nw"), n = 10000
 )
 ```
 ## create lat/lng variables using all available tweet and profile geo-location data
