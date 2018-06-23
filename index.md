@@ -1,5 +1,9 @@
 ### **Website Under Construction**
 
+## Slack Channel
+
+[https://join.slack.com/t/techlawsociety/shared_invite/enQtMzg3ODI0NzU3Njg2LTc5Y2I2NjQ1ZmNkNTk2ZDJkZDkwMWI5ZDg4OTE3MTgzNWY4ZWU4ZWVkNGJiNjg5MmJmZDI4YTI3ZmNhNWVmNDQ](https://join.slack.com/t/techlawsociety/shared_invite/enQtMzg3ODI0NzU3Njg2LTc5Y2I2NjQ1ZmNkNTk2ZDJkZDkwMWI5ZDg4OTE3MTgzNWY4ZWU4ZWVkNGJiNjg5MmJmZDI4YTI3ZmNhNWVmNDQ)
+
 # View the Presentation Live:
 [https://www.icloud.com/keynote-live/sc:0ILluFX9DNLol_LwFhVG13RybDSalDH_coDu4QrAUmlH9END9RBzWnpTkiP1oKWwOVn](https://www.icloud.com/keynote-live/sc:0ILluFX9DNLol_LwFhVG13RybDSalDH_coDu4QrAUmlH9END9RBzWnpTkiP1oKWwOVn)
 
