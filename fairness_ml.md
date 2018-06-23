@@ -1,5 +1,13 @@
 # Fairness in Machine Learning Workshop
 
+## Fantastic Introductions to Machine Learning!
+
+[http://www.r2d3.us/](http://www.r2d3.us/)
+(A couple of really good visualizations to understand some of the issues related to models based on the simple decision tree algorithm)
+
+[https://research.google.com/bigpicture/attacking-discrimination-in-ml/](https://research.google.com/bigpicture/attacking-discrimination-in-ml/)
+
+
 ## Resources
 
 Building Ethical Algorithms by Center for Democracy & Technology
