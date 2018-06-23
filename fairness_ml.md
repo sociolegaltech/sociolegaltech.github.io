@@ -7,6 +7,9 @@
 
 [https://research.google.com/bigpicture/attacking-discrimination-in-ml/](https://research.google.com/bigpicture/attacking-discrimination-in-ml/)
 
+[https://speak-statistics-to-power.github.io/fairness/](https://speak-statistics-to-power.github.io/fairness/)
+
+[https://github.com/dynamicwebpaige/runconf18](https://github.com/dynamicwebpaige/runconf18)
 
 ## Resources
 
@@ -41,6 +44,8 @@ Data and analysis for 'Machine Bias'
 
 * machLearn Source Code [https://github.com/davesteps/machLearn](https://github.com/davesteps/machLearn)
 
+* fairness_measures_code [https://github.com/megantosh/fairness_measures_code/tree/master](https://github.com/megantosh/fairness_measures_code/tree/master)
+
 ---
 
 ## Module II: Predictive Policing
@@ -48,7 +53,11 @@ Data and analysis for 'Machine Bias'
 ### HunchLab
 [https://www.hunchlab.com/resources/](https://www.hunchlab.com/resources/)
 
+**Predictive Policing Studies**
+
 [http://www.jratcliffe.net/research/the-philadelphia-predictive-policing-experiment/](http://www.jratcliffe.net/research/the-philadelphia-predictive-policing-experiment/)
+
+[https://www.nature.com/news/reform-predictive-policing-1.21338](https://www.nature.com/news/reform-predictive-policing-1.21338)
 
 **CivicScape**
 
