@@ -1,11 +1,10 @@
-### **Website Under Construction**
-
-## Slack Channel
+# Slack Channel Invitation
 
 [https://join.slack.com/t/techlawsociety/shared_invite/enQtMzg3ODI0NzU3Njg2LTc5Y2I2NjQ1ZmNkNTk2ZDJkZDkwMWI5ZDg4OTE3MTgzNWY4ZWU4ZWVkNGJiNjg5MmJmZDI4YTI3ZmNhNWVmNDQ](https://join.slack.com/t/techlawsociety/shared_invite/enQtMzg3ODI0NzU3Njg2LTc5Y2I2NjQ1ZmNkNTk2ZDJkZDkwMWI5ZDg4OTE3MTgzNWY4ZWU4ZWVkNGJiNjg5MmJmZDI4YTI3ZmNhNWVmNDQ)
 
-# View the Presentation Live:
-[https://www.icloud.com/keynote-live/sc:0ILluFX9DNLol_LwFhVG13RybDSalDH_coDu4QrAUmlH9END9RBzWnpTkiP1oKWwOVn](https://www.icloud.com/keynote-live/sc:0ILluFX9DNLol_LwFhVG13RybDSalDH_coDu4QrAUmlH9END9RBzWnpTkiP1oKWwOVn)
+# View the Presentation:
+
+[https://www.icloud.com/keynote/0ILICDKqObj2Ef5s1CEAoaA5g#Technology,\_Law\_&\_Society_Summer\_Institute\_Hackathon](https://www.icloud.com/keynote/0ILICDKqObj2Ef5s1CEAoaA5g#Technology,_Law_&_Society_Summer_Institute_Hackathon)
 
 ## **Presentations on Sunday at 9:30 AM**
 
