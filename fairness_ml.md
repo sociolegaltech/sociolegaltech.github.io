@@ -45,6 +45,11 @@ Data and analysis for 'Machine Bias'
 
 ## Module II: Predictive Policing
 
+### HunchLab
+[https://www.hunchlab.com/resources/](https://www.hunchlab.com/resources/)
+
+[http://www.jratcliffe.net/research/the-philadelphia-predictive-policing-experiment/](http://www.jratcliffe.net/research/the-philadelphia-predictive-policing-experiment/)
+
 **CivicScape**
 
 Article About CivicScape
