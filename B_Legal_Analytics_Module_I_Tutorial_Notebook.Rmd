@@ -73,6 +73,10 @@ library(rtweet)
 ## Introduction to rtweet
 
 create a token with the web browser method: create token and save it as an environment variable
+
+Create an Access Token Tutorial
+[http://rtweet.info/articles/auth.html](http://rtweet.info/articles/auth.html)
+
 ```{r}
 create_token(
   app = "sociolegaltech_R_analysis",
@@ -80,11 +84,28 @@ create_token(
   consumer_secret = "4VnZ6KorOEGi7mKc8UupIYFe8UVrkOgKt15OlidHzcJ9VTjyXK")
 ```
 
- Search for tweets using a hashtag
+ Search for tweets using a hashtag.
+ ```
+ name-of-dataframe <- search_tweets( "searchterm", n = numberoftweets, include_rts = falseortrue)
+ ```
+ 
 ```{r}
 searched_tweets <- search_tweets(
   "#legaltech", n = 18000, include_rts = FALSE
 )
+```
+
+You will now have a data frame with tweets that have been scraped from twitter. 
+
+You can look at the dataframe by entering `view(searched_tweets)`
+
+If you do not have any observations, something did not work correctly.
+
+You can interact with the data frame, such as plotting a time series.
+
+```
+ts_plot(nameofdataframe, "time_interval") +
+other options to make the plot
 ```
 
 ## plot time series of tweets
