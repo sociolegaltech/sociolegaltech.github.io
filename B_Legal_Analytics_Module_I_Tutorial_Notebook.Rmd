@@ -127,6 +127,15 @@ irvine_tweets <- search_tweets(
   "lang:en", geocode = lookup_coords("irvine, CA", "country:US", apikey ="AIzaSyA7Au-XiUS6BD1Yl1ylEfLhJ9zu8Wc1-nw"), n = 10000
 )
 ```
+
+```{r}
+install.packages("jsonlite")
+library(jsonlite)
+bitcoin_tweets <- fromJSON('https://github.com/sociolegaltech/sociolegaltech.github.io/raw/master/bitcoin_tweets.json')
+```
+
+
+
 ## create lat/lng variables using all available tweet and profile geo-location data
 ```{r}
 irvine_tweets_latlon <- lat_lng(irvine_tweets)

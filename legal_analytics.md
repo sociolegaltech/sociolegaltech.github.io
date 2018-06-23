@@ -4,6 +4,14 @@
 
 [https://sociolegaltech.github.io/B_Legal_Analytics_Module_I_Tutorial_Notebook.nb.html](https://sociolegaltech.github.io/B_Legal_Analytics_Module_I_Tutorial_Notebook.nb.html)
 
+Create an Access Token Tutorial
+[http://rtweet.info/articles/auth.html](http://rtweet.info/articles/auth.html)
+
+### Fantastic Workshop at UCI on Social Media Analytics
+
+[https://sites.google.com/view/socalsocial2018/](https://sites.google.com/view/socalsocial2018/)
+video and papers posted
+
 ## Helpful Tools for Textual Analysis
 
 Quanteda R Package
