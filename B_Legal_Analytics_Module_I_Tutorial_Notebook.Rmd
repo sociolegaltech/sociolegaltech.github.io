@@ -1,8 +1,7 @@
 ---
 title: "Legal Analytics Module Twitter"
 output:
-  html_document:
-    df_print: paged
+  html_notebook
 ---
 Install Packages
 ```
@@ -91,7 +90,7 @@ create_token(
  
 ```{r}
 searched_tweets <- search_tweets(
-  "#legaltech", n = 18000, include_rts = FALSE
+  "#bitcoin", n = 18000, include_rts = FALSE
 )
 ```
 
@@ -122,6 +121,7 @@ ts_plot(searched_tweets, "3 hours") +
 ```
 
 ## search for 10,000 tweets sent from the US
+you can use the search_tweets fucntion for tweets within a specified geographic area, using a Google API key, to look up coordinates.
 ```{r}
 irvine_tweets <- search_tweets(
   "lang:en", geocode = lookup_coords("irvine, CA", "country:US", apikey ="AIzaSyA7Au-XiUS6BD1Yl1ylEfLhJ9zu8Wc1-nw"), n = 10000
