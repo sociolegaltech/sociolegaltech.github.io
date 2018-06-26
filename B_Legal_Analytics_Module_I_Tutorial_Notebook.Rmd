@@ -79,8 +79,8 @@ Create an Access Token Tutorial
 ```{r}
 create_token(
   app = "sociolegaltech_R_analysis",
-  consumer_key = "rpRXPSSHDwBejBMy2SDI8ikLJ",
-  consumer_secret = "4VnZ6KorOEGi7mKc8UupIYFe8UVrkOgKt15OlidHzcJ9VTjyXK")
+  consumer_key = "",
+  consumer_secret = "")
 ```
 
  Search for tweets using a hashtag.
@@ -124,7 +124,7 @@ ts_plot(searched_tweets, "3 hours") +
 you can use the search_tweets fucntion for tweets within a specified geographic area, using a Google API key, to look up coordinates.
 ```{r}
 irvine_tweets <- search_tweets(
-  "lang:en", geocode = lookup_coords("irvine, CA", "country:US", apikey ="AIzaSyA7Au-XiUS6BD1Yl1ylEfLhJ9zu8Wc1-nw"), n = 10000
+  "lang:en", geocode = lookup_coords("irvine, CA", "country:US", apikey =""), n = 10000
 )
 ```
 
